@@ -4,7 +4,13 @@ Ein bebilderter Recherche-Index für **Crunchyroll Deutschland** – mit Tonspra
 Vorschaufenstern und einer lokalen Merkliste. Keine offizielle Crunchyroll-Seite
 und kein Streaming-Angebot.
 
-**Datenstand: 1. Oktober 2026 · 1.656 Einträge · 6 neu erfasste deutsche Fassungen**
+**Katalogdaten: 1. Oktober 2026 · 1.656 Einträge**
+
+**Quellenprüfung überarbeitet: 3. Oktober 2026 · sechs Titel nachgeprüft**
+
+Die bisherigen Deutsch-Filter waren zu weit ausgelegt: Sie bestätigten nur ein
+Audiofeld auf der Serienseite. Das belegt weder die richtige Staffel noch eine
+abspielbare deutsche Tonspur. Beide Ansichten zeigen jetzt den genauen Prüfstand.
 
 [Große Ansicht öffnen](https://rud5vision.github.io/crunchyroll-anime-index/)
 · [Kompakte iPhone-/Touch-Ansicht](https://rud5vision.github.io/crunchyroll-anime-index/Crunchyroll-Anime-Index.html)
@@ -13,13 +19,16 @@ und kein Streaming-Angebot.
 
 - Erneuter Abgleich des sichtbaren A–Z-Katalogs und der Audiofelder am 01.10.2026.
 - 27 neue Katalogseiten gegenüber dem Stand vom 26.09.2026.
-- Ein eigener Filter **„Neu Deutsch“** für erstmals im Index bestätigtes Deutsch.
+- **„Neue Deutsch-Angaben“** für erstmals erfasste Seitenmetadaten.
+- Getrennte Filter für **Serienseiten-Angaben**, **Folgen-/Filmseiten-Angaben**,
+  **Deutsch im Player geprüft** und **uneindeutige Zuordnungen**.
+- Konkrete Folgenbelege mit URL, Datum, Audiofeld und Staffel-/Filmzuordnung.
 - Ruhigeres Design, klarere Bedienelemente und **System / Hell / Dunkel**.
 - Automatische Menüsprache mit manueller Auswahl aus 16 Sprachen.
 - Separate kompakte Ausgabe für schmale Displays, ohne die große Ansicht zu ersetzen.
 - Bisherige Merkliste-IDs und Sicherungen bleiben kompatibel. Kein Notizfeld.
 
-Die sechs neu mit Deutsch erfassten Seiten sind:
+Die sechs erstmals mit einer Deutsch-Seitenangabe erfassten Titel sind:
 
 - [DanMachi – Is It Wrong to Try to Pick Up Girls in a Dungeon?](https://www.crunchyroll.com/de/series/G6DQN9KGR/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon)
 - [Overgeared](https://www.crunchyroll.com/de/series/GT00384004/overgeared)
@@ -28,9 +37,51 @@ Die sechs neu mit Deutsch erfassten Seiten sind:
 - [Flügel der Freiheit](https://www.crunchyroll.com/de/series/GMTE00059060/)
 - [Gebrüll des Erwachens](https://www.crunchyroll.com/de/series/GMTE00059061/)
 
-„Neu Deutsch“ beschreibt den Unterschied zwischen zwei Prüfständen dieses Index.
-Es ist **kein Veröffentlichungsdatum** und keine Aussage darüber, seit wann eine
-Synchronfassung existiert.
+„Neue Deutsch-Angaben“ beschreibt einen Metadaten-Unterschied zwischen zwei
+Datensätzen. Es ist kein Veröffentlichungsdatum und keine Bestätigung neuer Dubs.
+
+## So werden die Angaben geprüft
+
+1. Serien- oder Sammelseite lesen und die Sprachangabe mit URL und Datum sichern.
+2. Die richtige Staffel beziehungsweise den richtigen Film auswählen. Titel auf
+   einer Sammelseite können auf andere Serien oder Fortsetzungen verweisen.
+3. Die konkrete Episoden-/Filmseite prüfen: Audio und Untertitel getrennt erfassen.
+4. Im zugänglichen Player prüfen, ob Deutsch tatsächlich auswählbar ist.
+5. Deutsche Wiedergabe testen und den Deutschland-Kontext dokumentieren.
+
+Jeder Beleg gilt nur für die konkret geprüfte Folge oder den Film. Für eine
+vollständig geprüfte Staffel müssen alle Folgen kontrolliert werden. Eine
+Stichprobe ist kein Nachweis für eine ganze Serie. Eine Adresse mit `/de/`
+belegt nur die Menüsprache, nicht den tatsächlichen Standort.
+
+Crunchyroll beschreibt diese Einschränkung selbst: [Sprachen auf Serienseiten
+können nur für einzelne Staffeln oder Folgen gelten](https://help.crunchyroll.com/hc/en-us/articles/22747847738772-What-languages-are-available-for-shows).
+
+| Prüfstand | Aussage |
+| --- | --- |
+| Nur Serienseiten-Angabe | Metadaten von Crunchyroll; konkrete Inhalte noch ungeprüft. |
+| Deutsch auf Folgen-/Filmseite | Deutsch im Audiofeld eines passenden, verlinkten Inhalts genannt; noch keine Wiedergabeprüfung. |
+| Deutsch im Player geprüft | Deutsch auswählbar und Wiedergabe im dokumentierten Deutschland-Kontext geprüft; gilt für den benannten Inhalt. |
+| Zuordnung uneindeutig | Abweichende Episodenangabe oder Beleg für eine andere Serie/Staffel. |
+| Historische Seitenangabe | Älterer Datensatz mit seinem ursprünglichen Datum. |
+
+**Stichprobe vom 03.10.2026:**
+
+| Titel | Beobachtung |
+| --- | --- |
+| DanMachi | Serienseite nennt Deutsch, [Staffel 5, Folge 1](https://www.crunchyroll.com/de/watch/G50UMKE57/episode-01) nur Japanisch. Andere Staffeln sind damit weder bestätigt noch ausgeschlossen. |
+| STEINS;GATE | Die sichtbare Staffelauswahl nennt Steins;Gate 0 (German Dub) und eine OVA. [Der Deutsch-Folgenbeleg](https://www.crunchyroll.com/de/watch/GK9U35DG2/missing-link-of-the-annihilator--absolute-zero-) gehört zu Steins;Gate 0, nicht zur ursprünglichen Serie. |
+| Overgeared | [Staffel 1, Folge 1](https://www.crunchyroll.com/de/watch/GE00384228DEDE/legendary-class) nennt Deutsch im Audiofeld. |
+| Feuerroter Pfeil und Bogen | [Die Filmseite](https://www.crunchyroll.com/de/watch/GG1U2DGWN/) nennt Deutsch im Audiofeld. |
+| Flügel der Freiheit | [Die Filmseite](https://www.crunchyroll.com/de/watch/G9DUED3N2/) nennt Deutsch im Audiofeld. |
+| Gebrüll des Erwachens | [Die Filmseite](https://www.crunchyroll.com/de/watch/G4VUQM20W/) nennt Deutsch im Audiofeld. |
+
+Die Prüfung erfolgte auf öffentlichen Seiten ohne Anmeldung. Alle sechs
+Watch-Seiten verlangten Premium; Player-Sprachauswahl und Wiedergabe konnten
+deshalb nicht geprüft werden. **Der strenge Player-Filter enthält derzeit 0
+Nachweise.** Das bedeutet fehlende Prüfung, nicht fehlende deutsche Tonspuren.
+Vier passende Titel haben einen genau zugeordneten Folgen-/Filmseiten-Beleg.
+Die übrigen Titel des Katalogs sind noch nicht bis auf Player-Ebene geprüft.
 
 ## Bedienung
 
@@ -51,7 +102,7 @@ zurück. Ein Klick erzeugt einen kurzen zusätzlichen Effekt. Die Einstellung
 | Angabe | Bedeutung |
 | --- | --- |
 | Menüsprache | Sprache der wichtigsten Bedienfelder. Folgt zunächst den bevorzugten Gerätesprachen; manuell umstellbar. |
-| Tonsprache | Tatsächlich abgelesene Audioangabe der jeweiligen Crunchyroll-Seite. Separat filterbar. |
+| Tonsprache | Abgelesene Quellenangabe. Der Prüfstand zeigt, ob sie von einer Serienseite, einer konkreten Folge oder einer Player-Prüfung stammt. |
 | Untertitel | Untertitelangabe, ausdrücklich kein Nachweis für eine entsprechende Tonspur. |
 
 Die Menüauswahl orientiert sich an den 16 Sprachen, die Crunchyroll am 01.10.2026
@@ -93,17 +144,19 @@ nicht durchgeführt.**
 | --- | ---: |
 | Einträge im Index | 1.656 |
 | Aktuell im sichtbaren A–Z-Katalog erfasste Seiten | 1.602 |
-| Davon mit heute einzeln abgelesenen Audiofeldern | 1.602 |
-| Einträge mit aktuell bestätigter Deutsch-Seitenangabe | 387 |
+| Davon mit am 01.10.2026 abgelesenen Audiofeldern | 1.602 |
+| Einträge mit nicht historischer Deutsch-Seitenangabe | 387 |
 | Zusätzlicher historischer Deutsch-Eintrag | 1 |
 | Alte Einträge ohne aktuelle Audiofelder | 13 |
 | Davon Seiten mit 404-Meldung | 11 |
 | Nicht mehr im A–Z-Abgleich gelistete, weiter aufbewahrte Einträge | 30 |
 
-Der allgemeine Deutsch-Filter enthält 388 erfasste Einträge einschließlich des
-historisch gekennzeichneten „Steins;Gate 0“. In der großen Ansicht beschränkt
-**„Deutsch · aktuell bestätigt“** die Auswahl auf heutige Audioangaben. Das
-ursprüngliche Prüfdatum historischer Angaben wird nicht auf heute gesetzt.
+**„Deutsch · Seitenangabe“** enthält 388 Quellenangaben einschließlich des
+historisch gekennzeichneten „Steins;Gate 0“ und der uneindeutigen Zuordnungen.
+Diese Zahl ist keine Anzahl bestätigter deutscher Streams. Der bisherige Filter
+„Deutsch · aktuell bestätigt“ wurde durch die genaueren Belegstufen ersetzt.
+Das ursprüngliche Datum der Katalog- und historischen Angaben bleibt erhalten;
+die Stichprobe vom 03.10.2026 hat eigene Datumsangaben.
 
 Grundlage ist der [öffentliche deutsche Crunchyroll-A–Z-Katalog](https://www.crunchyroll.com/de/videos/alphabetical)
 sowie die erhaltene Ursprungsliste mit 374 Einträgen. Mehrere Filme können dieselbe
@@ -111,10 +164,11 @@ Katalogseite verwenden; Eintrags- und Seitenzahl sind deshalb nicht identisch.
 Neue Seiten werden neutral als Katalogseiten geführt, sofern die Eintragsart nicht
 bereits aus der Ursprungsliste stammt. Nicht jede gelistete Seite ist ein Anime.
 
-Audioangaben gelten für die Seite, nicht automatisch für jede Staffel, Episode
-oder jeden Film. Ein allgemeines „Synchro“-Abzeichen bestätigt kein Deutsch.
-Katalogeinträge und gefundene Episodenlinks garantieren keine regionale
-Abspielbarkeit. **Videos wurden nicht abgespielt.**
+Audioangaben gelten für ihren dokumentierten Inhalt. Ein allgemeines
+„Synchro“-Abzeichen bestätigt kein Deutsch. Suchergebnisse, News, Coverquellen
+und DVD-/Blu-ray-Angebote sind kein Nachweis einer aktuellen Crunchyroll-Tonspur.
+Katalogeinträge und Episodenlinks garantieren keine regionale Abspielbarkeit.
+**Videos wurden nicht abgespielt.**
 
 Die Daten sind eine datierte Momentaufnahme und aktualisieren sich nicht von
 selbst. „Automatisch“ bezieht sich hier auf Menü- und Designwahl, nicht auf eine
