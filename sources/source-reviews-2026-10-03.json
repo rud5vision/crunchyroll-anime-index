@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-03",
+  "context": "Öffentliche Drittquellen, getrennt nach Werkidentität, existierender Synchronfassung, Anbieterlistung und Veröffentlichungsmeldung. Keine Drittquelle wird zu einem Player- oder Vollstaffelnachweis hochgestuft. Abrufdatum und Quelldatenstand sind getrennt.",
+  "sourcePolicy": "Keine automatische Massenauslesung der Synchronkartei. Öffentliche Seiten und Suchdarstellungen werden mit getrenntem Abruf- und Quelldatenstand dokumentiert. Nachrichten sind datierte Aussagen, keine aktuellen Wiedergabetests.",
+  "database": {
+    "url": "https://github.com/manami-project/anime-offline-database",
+    "dataDate": "2026-07-04",
+    "upstreamArchived": true,
+    "checkedAt": "2026-10-03",
+    "note": "Das Projekt ist seit 04.07.2026 archiviert. Der vorhandene Datensatz dient nur als datierter Identitäts-/Querverweisindex, nicht als aktueller Streaming- oder Sprachkatalog."
+  },
+  "reviews": [
+    {
+      "id": "cr-GYWE7W5GY",
+      "identityNote": "Katalogname STEINS;GATE, geprüfter Staffel-/Folgeninhalt jedoch Steins;Gate 0. Die ursprüngliche Serie (2011) und die Fortsetzung (2018) bleiben getrennt. Kein deutscher Crunchyroll-Folgenbeleg für die ursprüngliche Serie.",
+      "sources": [{"type":"dub-exists","provider":"Deutsche Synchronkartei","url":"https://www.synchronkartei.de/serie/32037","scope":"Steins;Gate · ursprüngliche Serie (2011), Synchro (2015)","finding":"Separater Datensatz für die deutsche Synchronfassung der ursprünglichen Serie. Kein Nachweis ihres aktuellen Crunchyroll-Angebots.","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03"}]
+    },
+    {
+      "id": "anime-226",
+      "contentUrl": "https://www.crunchyroll.com/de/watch/GK9U35DG2/missing-link-of-the-annihilator--absolute-zero-",
+      "identityNote": "Der konkrete Folgen- und Playerbeleg unter der irreführend STEINS;GATE genannten Sammelseite wird diesem Steins;Gate-0-Eintrag zugeordnet. Der alte Serienlink und seine historischen Metadaten bleiben als Herkunft erhalten.",
+      "sources": [
+        {"type":"dub-exists","provider":"Deutsche Synchronkartei","url":"https://www.synchronkartei.de/serie/45289","scope":"Steins;Gate 0 · Serie (2018)","finding":"Eigener Datensatz für die deutsche Synchronfassung, getrennt von Steins;Gate (2011).","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03"},
+        {"type":"provider-listing","provider":"JustWatch Deutschland","service":"Crunchyroll","region":"DE","url":"https://www.justwatch.com/de/Serie/Steins-Gate-0","scope":"Steins;Gate 0 · aggregierte Serienlistung","finding":"Führt Crunchyroll und Crunchyroll Amazon Channel getrennt als Anbieter. Keine Sprach- oder Folgenvollständigkeit daraus abgeleitet.","scopeMatchesTitle":true,"checkedAt":"2026-10-03"}
+      ]
+    },
+    {
+      "id": "anime-85",
+      "sources": [
+        {"type":"dub-exists","provider":"Deutsche Synchronkartei","url":"https://www.synchronkartei.de/serie/37835","scope":"Haikyu!! · Serie (2014–2020), Synchro (2017–2021)","finding":"Deutsche Synchronfassung dokumentiert. Kein Nachweis, dass jede Episode bei Crunchyroll dieselben Sprachen anbietet.","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03"},
+        {"type":"provider-listing","provider":"JustWatch Deutschland","service":"Crunchyroll","region":"DE","url":"https://www.justwatch.com/de/Serie/Haikyuu","scope":"Haikyu!! · aggregierte Serienlistung","finding":"Führt Crunchyroll als Anbieter in Deutschland; Amazon Channel wird separat genannt. Keine vollständige Staffel-/Tonspurprüfung.","scopeMatchesTitle":true,"checkedAt":"2026-10-03"}
+      ]
+    },
+    {
+      "id": "anime-86",
+      "duplicateOf": "anime-85",
+      "contentUrl": "https://www.crunchyroll.com/de/series/GY8VM8MWY/haikyu",
+      "identityNote": "Die alte Synchronfassungs-Adresse GXJHM3980 wurde im Browser auf GY8VM8MWY weitergeleitet. Dies ist ein Link-Alias zu Haikyu!!, kein zusätzliches Anime-Werk. IDs bleiben für alte Merklisten erhalten.",
+      "sourcesFrom": "anime-85"
+    },
+    {
+      "id": "cr-G6DQN9KGR",
+      "sources": [
+        {"type":"dub-exists","provider":"Deutsche Synchronkartei","url":"https://www.synchronkartei.de/serie/33118","scope":"DanMachi · ursprüngliche Serie (2015), nicht Staffel 5","finding":"Eine deutsche Synchronfassung der ursprünglichen Serie existiert. Daraus folgt nichts über die deutsche Tonspur der geprüften Staffel 5 auf Crunchyroll.","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03"},
+        {"type":"provider-conflict","provider":"JustWatch Deutschland","region":"DE","url":"https://www.justwatch.com/de/Serie/Danmachi-Is-It-Wrong-to-Try-to-Pick-Up-Girls-in-a-Dungeon","scope":"DanMachi · unterschiedliche Seitenstände","finding":"Suchdarstellung mit Datenstand 03.10. nennt Crunchyroll direkt; geöffnete Darstellung mit Stand 29.09. nennt nur Crunchyroll Amazon Channel. Anbieterangabe daher offen; keine Deutsch-Bestätigung übernommen.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","sourceDates":["2026-09-29","2026-10-03"]}
+      ]
+    },
+    {
+      "id": "cr-GT00384004",
+      "sources": [
+        {"type":"release-report","provider":"Anime2You","url":"https://www.anime2you.de/news/1054611/crunchyroll-overgeared-und-mehr/","scope":"Overgeared · Staffel 1, Folge 1","finding":"Meldet den Start der ersten Folge mit deutscher und japanischer Sprachausgabe auf Crunchyroll. Kein Nachweis für weitere Folgen oder unabhängige Playerprüfung.","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03","publishedAt":"2026-09-27"},
+        {"type":"release-calendar","provider":"Crunchyroll","url":"https://www.crunchyroll.com/de/simulcastcalendar?date=2026-09-23&filter=premium","scope":"Overgeared · Staffel 1 (Deutsch), Folge 1","finding":"Öffentlicher Suchauszug des offiziellen Kalenders nennt die deutsche Fassung von Folge 1. Direkter Seitenabruf war nicht lesbar; schwächerer Suchbeleg, kein Playernachweis.","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03","access":"search-excerpt-only"}
+      ]
+    },
+    {
+      "id":"anime-27",
+      "identitySources":["https://anilist.co/anime/165254"],
+      "identityNote":"BUCCHIGIRI?! ist das MAPPA-Original von 2024 mit Arajin, Matakara und Senya. Das ältere Baseball-OVA-Werk Bucchigiri (1989) ist nicht gemeint. Titelzeichen bleiben erhalten; keine pauschale Tonspurprüfung.",
+      "sources":[
+        {"type":"identity","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/pl/news/guides/2024/1/14/bucchigiri-anime-release-date-cast-trailers-plot","scope":"BUCCHIGIRI?! · TV-Serie (2024)","finding":"Guide nennt MAPPA, Hiroko Utsumi und den Start im Januar 2024; diese Angaben passen zum neueren Werk.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","publishedAt":"2024-01-14","access":"search-rendered"},
+        {"type":"provider-listing","provider":"JustWatch Deutschland","service":"Crunchyroll","region":"DE","url":"https://www.justwatch.com/de/Serie/bucchigiri","scope":"BUCCHIGIRI?! (2024) · aggregierte Serienlistung","finding":"Führt Crunchyroll und Amazon Channel separat. Angezeigter Anbieterstand ist älter als der heutige Abruf; keine aktuelle Playerbestätigung.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","sourceDates":["2026-09-09"],"access":"page-rendered"}
+      ]
+    },
+    {
+      "id":"anime-30","identitySources":["https://anilist.co/anime/100745"],
+      "identityNote":"Der Jahreszusatz 2018 grenzt die Neuverfilmung von 1983 und Road to 2002 ab. Die historische lateinamerikanische Meldung dient nur der Identität, nicht der heutigen Deutschland-Verfügbarkeit.",
+      "sources":[{"type":"identity","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/es-es/news/latest/2021/7/23/latinoamrica-captain-tsubasa-2018-llega-a-crunchyroll-con-subttulos-y-con-doblaje","scope":"Captain Tsubasa (2018) · erste Staffel","finding":"Nennt ausdrücklich die Fassung von 2018. Eine damalige Ankündigung für Lateinamerika ist kein deutscher Streaming- oder Dubbeleg.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","publishedAt":"2021-07-23","access":"search-rendered"}]
+    },
+    {
+      "id":"cr-G6NQ9PX36","identitySources":["https://anilist.co/anime/99569"],
+      "identityNote":"Die ausgeschriebene englische Übersetzung The Ouka Ninja Scrolls gehört zu Basilisk: Ouka Ninpouchou (2018), nicht automatisch zur ursprünglichen Basilisk-Serie (2005).",
+      "sources":[{"type":"identity","provider":"Crunchyroll","url":"https://www.crunchyroll.com/de/series/G6NQ9PX36/basilisk--the-ouka-ninja-scrolls","scope":"Basilisk: The Ouka Ninja Scrolls · Serie (2018)","finding":"Seitentitel, Produktionsangabe und Folgenfolge identifizieren das Ouka-Werk. Deutsche Untertitel sind keine deutsche Tonspur.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","access":"search-rendered"}]
+    },
+    {
+      "id":"cr-GMTE00193059","identitySources":["https://anilist.co/anime/98662"],
+      "contentUrl":"https://www.crunchyroll.com/de/watch/GR0XPDJ0Y/kabaneri-of-the-iron-fortress-light-that-gathers",
+      "identityNote":"Gebündeltes Licht ist der erste Kabaneri-Zusammenfassungsfilm Light That Gathers / Tsudou Hikari. Der verkürzte deutsche Titel ist kein unbekanntes eigenständiges Werk.",
+      "sources":[
+        {"type":"identity","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/news/latest/2017/4/7/new-preview-for-anime-movie-night-event-kabaneri-of-the-iron-fortress-exclusive-theatrical-release-double-feature","scope":"Kabaneri · Zusammenfassungsfilm 1: Light That Gathers","finding":"Ordnet Light That Gathers dem ersten Teil der zweiteiligen Kinofassung zu; keine heutige regionale Tonspurprüfung.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","publishedAt":"2017-04-07","access":"search-rendered"},
+        {"type":"content-audio-metadata","provider":"Crunchyroll · Filmseite","url":"https://www.crunchyroll.com/watch/GR0XPDJ0Y/kabaneri-of-the-iron-fortress-light-that-gathers","scope":"Kabaneri · Film 1, konkreter Filmseiten-Datensatz","finding":"Öffentliche Suchdarstellung nennt Japanese und Deutsch. Abruf ohne bestätigte Deutschland-Region und ohne Player; nicht zu einem Playernachweis hochgestuft.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","access":"search-rendered"}
+      ]
+    },
+    {
+      "id":"cr-GMTE00193060","identitySources":["https://anilist.co/anime/98663"],
+      "contentUrl":"https://www.crunchyroll.com/de/watch/GR790PW36/kabaneri-of-the-iron-fortress-life-that-burns",
+      "identityNote":"Brennendes Leben ist der zweite Kabaneri-Zusammenfassungsfilm Life That Burns / Moeru Inochi. Film 1 und Film 2 bleiben getrennte Werke, obwohl beide unter derselben Serienfamilie erscheinen.",
+      "sources":[
+        {"type":"identity","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/news/latest/2017/4/7/new-preview-for-anime-movie-night-event-kabaneri-of-the-iron-fortress-exclusive-theatrical-release-double-feature","scope":"Kabaneri · Zusammenfassungsfilm 2: Life That Burns","finding":"Ordnet Life That Burns dem zweiten Teil der Kinofassung zu; nicht dem TV-Serieneintrag gleichgesetzt.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","publishedAt":"2017-04-07","access":"search-rendered"},
+        {"type":"content-audio-metadata","provider":"Crunchyroll · Filmseite","url":"https://www.crunchyroll.com/watch/GR790PW36/kabaneri-of-the-iron-fortress-life-that-burns","scope":"Kabaneri · Film 2, konkreter Filmseiten-Datensatz","finding":"Öffentliche Suchdarstellung nennt Japanese und Deutsch. Keine bestätigte Deutschland-Region, kein Player-Menü und kein Hörtest.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","access":"search-rendered"}
+      ]
+    },
+    {
+      "id":"cr-GMTE00192691","identitySources":["https://anilist.co/anime/101345"],
+      "identityNote":"Der Zusatz (Sub) beschreibt die Sprachfassung der Seite. Die Werkidentität ist City Hunter: Shinjuku Private Eyes, der Animationsfilm von 2019, nicht die ältere TV-Serie.",
+      "sources":[{"type":"identity","provider":"Sunrise World · Studio-Werkdaten","url":"https://www.sunrise-world.net/titles/pickup_407.php","scope":"City Hunter: Shinjuku Private Eyes · Film (2019)","finding":"Studio nennt den englischen Filmtitel und den japanischen Kinostart am 08.02.2019. Keine Aussage zur aktuellen Crunchyroll-Tonspur.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","access":"page-rendered"}]
+    },
+    {
+      "id":"cr-GMTE00258378","identitySources":["https://anilist.co/anime/117074"],
+      "identityNote":"Der verkürzte Indexname Isekai Quartet Movie gehört zum Film Another World, nicht zu den TV-Staffeln. Der vollständige Titel ist auf der konkreten Crunchyroll-Seite erkennbar.",
+      "sources":[{"type":"identity","provider":"Crunchyroll","url":"https://www.crunchyroll.com/series/GMTE00258378/isekai-quartet-the-movie-another-world","scope":"Isekai Quartet The Movie: Another World · Film","finding":"Seriencontainer und einzelne 111-Minuten-Filmzeile tragen den vollständigen Titel. Kein regionaler Tonspurbeleg abgeleitet.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","access":"search-rendered"}]
+    },
+    {
+      "id":"cr-G79H23ZZ3","identitySources":["https://anilist.co/anime/166699"],
+      "identityNote":"OKITSURA und der ausgeschriebene Okinawa-Titel bezeichnen dieselbe TV-Serie von 2025. Abweichende Worttrennung im romanisierten Titel wird ausdrücklich zugeordnet, nicht als zusätzlicher Anime gezählt.",
+      "sources":[
+        {"type":"identity","provider":"Offizielle Anime-Website","url":"https://okitsura.com/","scope":"Okinawa de Suki ni Natta Ko ga Hougen Sugite Tsurasugiru / OKITSURA","finding":"Offizielle Website führt den vollständigen japanischen Titel unter dem Kurznamen OKITSURA. Nur Werkidentität, kein Crunchyroll-Sprachnachweis.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","access":"page-rendered"},
+        {"type":"identity","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/news/latest/2024/12/6/okitsura-anime-january-4-2025-release-date-key-visual-trailer","scope":"OKITSURA · TV-Serie (2025)","finding":"Datierte Meldung bestätigt den Serienstart im Januar 2025; heutige regionale Verfügbarkeit bleibt separat.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","publishedAt":"2024-12-06","access":"search-rendered"}
+      ]
+    },
+    {
+      "id":"cr-G0XHWM435","identitySources":["https://anilist.co/anime/86"],
+      "identityNote":"Die Seite heißt Mobile Suit Zeta Gundam: ZZ, ihre Staffelauswahl jedoch Mobile Suit Gundam ZZ. Judau und PRELUDE ZZ gehören zu Gundam ZZ, nicht zur vorherigen Zeta-Gundam-Serie. Sprach-/Regionsergebnis daraus nicht abgeleitet.",
+      "sources":[{"type":"identity","provider":"Crunchyroll · öffentliche Seitendarstellung","url":"https://www.crunchyroll.com/zh-tw/series/G0XHWM435/mobile-suit-gundam-zz","scope":"Mobile Suit Gundam ZZ · Werkidentität","finding":"Interner Staffeltitel, Judau-Handlung und Folgenbeginn PRELUDE ZZ gleichen die missverständliche äußere Titelzeile ab. Fremdsprachige Route nur für Identität verwendet.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","access":"search-rendered"}]
+    },
+    {
+      "id":"cr-GXJHM3GN4","contentKind":"documentary",
+      "identityNote":"Vierteilige Studio-Dokumentation über BONES, kein eigenständiges Anime-Werk. Als Zusatzangebot im erhaltenen Crunchyroll-Katalog sichtbar; kein fehlender Datenbank-Anime.",
+      "sources":[{"type":"content-classification","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/news/announcements/2024/2/12/anime-studio-bones-25-anniversary-documentary","scope":"BONES 25: DREAMING FORWARD · Dokumentation","finding":"Offizielle Ankündigung beschreibt vier Dokumentationsfolgen über das Studio. Daraus werden weder Dub noch regionale Verfügbarkeit abgeleitet.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","publishedAt":"2024-02-12","access":"search-rendered"}]
+    },
+    {
+      "id":"cr-GR3K50PZR","contentKind":"event",
+      "identityNote":"Preisverleihung und Sammelseite mehrerer Anime-Awards-Jahrgänge, keine Anime-Serie. Audiofelder des Containers gelten nicht automatisch für die 2021-Aufzeichnung.",
+      "sources":[{"type":"content-classification","provider":"Crunchyroll · Veranstaltungsseite","url":"https://www.crunchyroll.com/watch/GN7UDZ28N/the-2021-crunchyroll-anime-awards","scope":"Crunchyroll Anime Awards · Aufzeichnung 2021 / Jahrgangscontainer","finding":"Die konkrete Aufzeichnung beschreibt eine Preisverleihung. Nachbarzeilen verweisen auf 2019 und 2023; keinen Anime oder Deutsch-Folgenbeleg daraus gemacht.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","access":"search-rendered"}]
+    },
+    {
+      "id":"cr-G0XHWM5PN","contentKind":"live-action",
+      "identityNote":"Tokyo Revengers (Live Action) ist die Realverfilmung von 2021. Sie bleibt als zusätzliches Katalogangebot erhalten und wird nicht mit dem Anime-Eintrag zusammengeführt.",
+      "sources":[{"type":"content-classification","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/news/announcements/2023/3/9/live-action-tokyo-revengers-film-now-streaming-on-crunchyroll","scope":"Tokyo Revengers · Realfilm (2021)","finding":"Offizielle Meldung unterscheidet die Realverfilmung ausdrücklich von der TV-Anime-Serie. Damaliger Veröffentlichungsstand, keine aktuelle Tonspurprüfung.","scopeMatchesTitle":true,"checkedAt":"2026-10-03","publishedAt":"2023-03-09","access":"search-rendered"}]
+    },
+    {
+      "id":"anime-14",
+      "sources":[{"type":"dub-exists","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/de/news/announcements/2026/4/30/ascendance-of-a-bookworm-staffel-4-deutsche-synchro-crunchyroll-stream","scope":"Ascendance of a Bookworm · Staffel 4, Start bei Folge 1","finding":"Meldung dokumentiert deutschen Dubstart und beteiligtes Synchronstudio. Aussage gilt für den gemeldeten Start; keine heutige Vollstaffel- oder Playerbestätigung.","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03","publishedAt":"2026-04-30","access":"search-rendered"}]
+    },
+    {
+      "id":"anime-66",
+      "sources":[{"type":"dub-exists","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/de/news/announcements/2020/7/16/ein-update-zu-unseren-neuen-deutschen-synchros","scope":"Dr. STONE · im Juli 2020 gemeldete erste Dub-Folgen","finding":"Offizieller deutscher Dubstart im Juli 2020 dokumentiert. Historische Meldung, kein Nachweis der heutigen verfügbaren Staffeln oder Player-Tonspuren.","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03","publishedAt":"2020-07-16","access":"search-rendered"}]
+    },
+    {
+      "id":"anime-252",
+      "sources":[{"type":"dub-exists","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/de/news/announcements/2020/7/16/ein-update-zu-unseren-neuen-deutschen-synchros","scope":"The Rising of the Shield Hero · im Juli 2020 gemeldete erste Dub-Folgen","finding":"Datierte Meldung dokumentiert den deutschen Dubstart. Nicht auf spätere Staffeln oder heutige regionale Wiedergabe übertragen.","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03","publishedAt":"2020-07-16","access":"search-rendered"}]
+    },
+    {
+      "id":"anime-151",
+      "sources":[{"type":"dub-exists","provider":"Crunchyroll News","url":"https://www.crunchyroll.com/de/news/announcements/2020/7/16/ein-update-zu-unseren-neuen-deutschen-synchros","scope":"Meine Wiedergeburt als Schleim in einer anderen Welt · im Juli 2020 gemeldete erste Dub-Folgen","finding":"Meldung bestätigt den damaligen deutschen Dubstart der Serie. Filme, spätere Staffeln und heutige Player-Angebote bleiben davon unbestätigt.","scopeMatchesTitle":true,"language":"Deutsch","checkedAt":"2026-10-03","publishedAt":"2020-07-16","access":"search-rendered"}]
+    },
+    {"id":"cr-GXYZ123","qualityReviewNeeded":true,"identityNote":"Ungewöhnlicher Katalogname und abweichend kurze Quellen-ID; in den erhaltenen September-/Oktober-Snapshots enthalten. Liveabruf nicht lesbar. Bleibt als offener Quellenfall erhalten, nicht ohne Nachweis als erfunden gelöscht."},
+    {"id":"anime-293","audioEvidenceCrId":"GMTE00003645","contentUrl":"https://www.crunchyroll.com/de/watch/GG1U2DGWN/","identityNote":"Attack on Titan – Film 1: Der einzelne Film- und Playerbeleg gehört zu diesem Werk. Die Sammelseite bleibt als historische Metadatenquelle erhalten."},
+    {"id":"anime-294","audioEvidenceCrId":"GMTE00059060","contentUrl":"https://www.crunchyroll.com/de/watch/G9DUED3N2/","identityNote":"Attack on Titan – Film 2: Der einzelne Film- und Playerbeleg gehört zu diesem Werk. Die Sammelseite bleibt als historische Metadatenquelle erhalten."},
+    {"id":"anime-295","audioEvidenceCrId":"GMTE00059061","contentUrl":"https://www.crunchyroll.com/de/watch/G4VUQM20W/","identityNote":"Attack on Titan – Film 3: Der einzelne Film- und Playerbeleg gehört zu diesem Werk. Die Sammelseite bleibt als historische Metadatenquelle erhalten."},
+    {"id":"cr-GMTE00003645","duplicateOf":"anime-293","identityNote":"Dieselbe Filmidentität wie Attack on Titan – Film 1. Der aktuelle Einzel-Filmbeleg wird dem ursprünglichen Eintrag zugeordnet; kein weiteres Anime-Werk."},
+    {"id":"cr-GMTE00059060","duplicateOf":"anime-294","identityNote":"Dieselbe Filmidentität wie Attack on Titan – Film 2. Die aktuelle Einzel-Filmseite ersetzt den alten Sammellink; kein weiteres Anime-Werk."},
+    {"id":"cr-GMTE00059061","duplicateOf":"anime-295","identityNote":"Dieselbe Filmidentität wie Attack on Titan – Film 3. Die aktuelle Einzel-Filmseite ersetzt den alten Sammellink; kein weiteres Anime-Werk."}
+  ]
+}
