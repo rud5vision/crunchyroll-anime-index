@@ -4,11 +4,11 @@ Ein bebilderter Recherche-Index für **Crunchyroll Deutschland** – mit Tonspra
 Vorschaufenstern und einer lokalen Merkliste. Keine offizielle Crunchyroll-Seite
 und kein Streaming-Angebot.
 
-**Katalogdaten: 1. Oktober 2026 · 1.652 sichtbare Einträge aus 1.656 erhaltenen Datensätzen**
+**Katalogdaten: 20. Oktober 2026 · 1.757 sichtbare Einträge aus 1.761 erhaltenen Datensätzen**
 
-**Menüprüfstand / Website-Revision: 5. Oktober 2026**
+**Website-Revision: 20. Oktober 2026 · Menüprüfstand unverändert: 5. Oktober 2026**
 
-Alle 1.656 Datensätze wurden automatisch gegen einen datierten Identitätsindex
+Alle 1.761 Datensätze wurden automatisch gegen einen datierten Identitätsindex
 abgeglichen. 21 sichtbare Einträge wurden zusätzlich mit Quellen recherchiert.
 Am 05.10.2026 wurden **216 unterschiedliche konkrete Inhaltsmenüs** dokumentiert:
 **202 mit Deutsch, 14 ohne Deutsch im jeweiligen Menü**. Zusätzlich bleiben vier
@@ -24,6 +24,24 @@ existierende Synchronfassung, Anbieterlistung, Folgenangabe und Player-Menü.
 · [Kompakte iPhone-/Touch-Ansicht](https://rud5vision.github.io/crunchyroll-anime-index/Crunchyroll-Anime-Index.html)
 
 ## Was neu ist
+
+- A–Z-Katalog am **20.10.2026 vollständig über die sichtbaren Karten** abgeglichen:
+  **1.689 unterschiedliche Katalogseiten**, lückenlos erfasste Listenpositionen.
+- **105 neue Indexeinträge mit eingebetteten Covern**, darunter Kill la Kill.
+  Gegenüber dem Katalog vom 01.10.2026 sind 106 Seiten hinzugekommen; eine davon
+  war bereits als ursprünglicher Eintrag erhalten. 19 zuvor gelistete Seiten
+  fehlen im neuen A–Z-Abgleich und werden nicht gelöscht.
+- **129 Seiten-Audiofelder neu abgelesen**: neue Einträge sowie bestehende Seiten
+  mit geänderter Kennzeichnung bzw. wieder im Katalog aufgeführter Seite.
+  Alle übrigen Audioangaben behalten ihr ursprüngliches Prüfdatum.
+- **27 neu erfasste Deutsch-Seitenangaben**, keine behaupteten neuen deutschen
+  Streams oder vollständigen deutschen Serien. Die 216 Player-Menüprüfungen und
+  vier älteren Belege wurden weder neu datiert noch durch Metadaten ersetzt.
+- Datenquellen des Updates: [A–Z-Snapshot](sources/crunchyroll-a-z-2026-10-20.json)
+  und [129 neu gelesene Seiten-Audiofelder](sources/audio-page-observations-2026-10-20.json).
+  Bedienung, Vorschau-Effekte, Sprachwahl, Themes und Merkliste bleiben erhalten.
+
+### Vorherige Quellen- und Menüprüfung
 
 - Die gespeicherten Menübelege vom 05.10.2026 stehen in beiden HTML-Ansichten
   bei den zugehörigen konkreten Folgen/Filmen, mit Watch-ID, Datum und Audioangebot.
@@ -55,7 +73,7 @@ existierende Synchronfassung, Anbieterlistung, Folgenangabe und Player-Menü.
 - Separate kompakte Ausgabe für schmale Displays, ohne die große Ansicht zu ersetzen.
 - Bisherige Merkliste-IDs und Sicherungen bleiben kompatibel. Kein Notizfeld.
 
-Die sechs erstmals mit einer Deutsch-Seitenangabe erfassten Titel sind:
+Die im früheren Update erstmals mit einer Deutsch-Seitenangabe erfassten Titel waren:
 
 - [DanMachi – Is It Wrong to Try to Pick Up Girls in a Dungeon?](https://www.crunchyroll.com/de/series/G6DQN9KGR/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon)
 - [Overgeared](https://www.crunchyroll.com/de/series/GT00384004/overgeared)
@@ -252,8 +270,8 @@ der beobachteten Crunchyroll-Menüsprachen.
 
 | Datei | Verwendung |
 | --- | --- |
-| [index.html](index.html) | Große Ansicht mit Vorschau und Effekten; rund 44 MB. |
-| [Crunchyroll-Anime-Index.html](Crunchyroll-Anime-Index.html) | Eigenständige kompakte Touch-Ausgabe; rund 19 MB. |
+| [index.html](index.html) | Große Ansicht mit Vorschau und Effekten; rund 47 MB. |
+| [Crunchyroll-Anime-Index.html](Crunchyroll-Anime-Index.html) | Eigenständige kompakte Touch-Ausgabe; rund 21 MB. |
 
 Zusätzlich: [Quellenabgleich-2026-10-03.html](Quellenabgleich-2026-10-03.html) mit
 Suche und Filtern für offene Fälle und extern recherchierte Einträge.
@@ -278,19 +296,19 @@ nicht durchgeführt.**
 
 ## Prüfumfang und Grenzen
 
-| Stand vom 01.10.2026 | Umfang |
+| Stand vom 20.10.2026 | Umfang |
 | --- | ---: |
-| Erhaltene Rohdatensätze / alte Merkliste-IDs | 1.656 |
-| Sichtbare Einträge nach Zusammenführung von vier bekannten Dubletten | 1.652 |
-| Aktuell im sichtbaren A–Z-Katalog erfasste Seiten | 1.602 |
-| Davon mit am 01.10.2026 abgelesenen Audiofeldern | 1.602 |
-| Sichtbare Einträge mit nicht historischer Deutsch-Seitenangabe | 383 |
+| Erhaltene Rohdatensätze / alte Merkliste-IDs | 1.761 |
+| Sichtbare Einträge nach Zusammenführung von vier bekannten Dubletten | 1.757 |
+| Aktuell im sichtbaren A–Z-Katalog erfasste Seiten | 1.689 |
+| Davon mit am 20.10.2026 neu abgelesenen Audiofeldern | 129 |
+| Sichtbare Einträge mit nicht historischer Deutsch-Seitenangabe | 409 |
 | Zusätzlicher historischer Deutsch-Eintrag | 1 |
-| Alte Einträge ohne aktuelle Audiofelder | 13 |
+| Alte Einträge ohne aktuelle Audiofelder | 12 |
 | Davon Seiten mit 404-Meldung | 11 |
-| Nicht mehr im A–Z-Abgleich gelistete, weiter aufbewahrte Einträge | 30 |
+| Nicht mehr im A–Z-Abgleich gelistete, weiter aufbewahrte Einträge | 49 |
 
-**„Deutsch · Seitenangabe“** enthält nach Alias-Zusammenführung 384 sichtbare
+**„Deutsch · Seitenangabe“** enthält nach Alias-Zusammenführung 410 sichtbare
 Quellenangaben einschließlich der historischen Serienseitenangabe bei
 „Steins;Gate 0“ und der uneindeutigen Zuordnungen. Der aktuelle Steins;Gate-0-
 Folgen-/Menübeleg steht getrennt davon in den Details.
